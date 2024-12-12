@@ -1,1 +1,3 @@
-def contar_caracteres(texto): return len(texto)
+def contar_caracteres(texto):
+ return len(texto)
+
