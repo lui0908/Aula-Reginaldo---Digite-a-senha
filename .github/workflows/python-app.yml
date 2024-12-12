@@ -18,7 +18,7 @@ jobs:
     - name: Run tests
       run: |
         python -m unittest test_senha.py
-            - name: Package project
+    - name: Package project
       run: zip -r senha.zip .
     - name: Upload artifact
       uses: actions/upload-artifact@v3
